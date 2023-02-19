@@ -9,6 +9,10 @@ function App() {
     console.log(a);
   }
 
+  const b = 10;
+
+  console.log(b, 'b');
+
   console.log(a, 'a');
 
   return (
