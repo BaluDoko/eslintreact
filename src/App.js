@@ -10,6 +10,8 @@ function App() {
   const b = 10;
   console.log(b, 'b');
 
+  const c = 2;
+
   return (
     <div className="App">
       <header className="App-header">
