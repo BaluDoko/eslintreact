@@ -3,14 +3,8 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  const a = 5;
-  if (a == 5) {
-    console.log(a);
-  }
-  const b = 10;
-  console.log(b, 'b');
-
-  const c = 2;
+  const d = 4;
+  console.log(d, 'd');
 
   return (
     <div className="App">
