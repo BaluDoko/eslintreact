@@ -4,16 +4,11 @@ import './App.css';
 
 function App() {
   const a = 5;
-
   if (a == 5) {
     console.log(a);
   }
-
   const b = 10;
-
   console.log(b, 'b');
-
-  console.log(a, 'a');
 
   return (
     <div className="App">
