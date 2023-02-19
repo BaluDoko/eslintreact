@@ -1,11 +1,15 @@
-import React from 'react'
-import logo from './logo.svg'
-import './App.css'
+import React from 'react';
+import logo from './logo.svg';
+import './App.css';
 
 function App() {
-  const a = 5
+  const a = 5;
 
-  console.log(a, 'a')
+  if (a == 5) {
+    console.log(a);
+  }
+
+  console.log(a, 'a');
 
   return (
     <div className="App">
@@ -24,7 +28,7 @@ function App() {
         </a>
       </header>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
