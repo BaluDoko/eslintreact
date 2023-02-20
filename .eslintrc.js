@@ -13,7 +13,6 @@ module.exports = {
   rules: {
     semi: 0,
     'comma-dangle': 0,
-    'prettier/prettier': 'error',
     'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
   },
-}
+};
